@@ -1,0 +1,217 @@
+<!DOCTYPE html>
+<html>
+    <title>JavaScript String</title>
+    <body>
+        <script>
+            //Date()
+           var date = new Date();
+           document.write(date);
+           document.writeln("<br>");
+
+           //Date(Year , monnth , day, , hours, minutes, seconds, milliseconds)
+            var date1 = new Date(2023, 11 , 1 , 12)
+            document.writeln(date1);
+            document.write("<br>");
+
+            //Date(dateString)
+            var date2 = new Date("October 12, 2023 12:56:03");
+            document.write(date2);
+            document.write("<br>");
+
+            //Date(millisecond)
+            var date3 = new Date(1000000);
+            document.write(date3);
+            document.write("<br>");
+
+            //getdate()
+            var date4 = new Date();
+            var day="";
+            var dateshow="";
+            var monthshow = "";
+            switch(date4.getDay()){
+                case 0 :
+                    day = "Sunday";
+                    break;
+                case 1 :
+                    day = "Monday";
+                    break;
+                case 2 :
+                    day = "Tuesday";
+                    break;
+                case 3 :
+                    day = "Wednesday";
+                    break;
+                case 4 :
+                    day = "Thursday";
+                    break;
+                case 5 :
+                    day = "Friday";
+                    break;
+                case 6 :
+                    day = "Saturday";
+                    break;
+            }
+            switch(date4.getMonth()){
+                case 0 :
+                    monthshow = "Jan";
+                    break;
+                case 1 :
+                    monthshow = "Feb";
+                    break;
+                case 2 :
+                    monthshow = "Mar";
+                    break;
+                case 3 :
+                    monthshow = "Apr";
+                    break;
+                case 4 :
+                    monthshow = "May";
+                    break;
+                case 5 :
+                    monthshow = "Jun";
+                    break;
+                case 6 :
+                    monthshow = "Jul";
+                    break;
+                    case 7 :
+                    monthshow = "Aug";
+                    break;
+                    case 8 :
+                    monthshow = "Sep";
+                    break;
+                    case 9 :
+                    monthshow = "Oct";
+                    break;
+                    case 10 :
+                    monthshow = "Nov";
+                    break;
+                    case 11 :
+                    monthshow = "Dec";
+                    break;
+            }
+            switch(date4.getDate()){
+                case 1 :
+                dateshow = "01";
+                break;
+
+                case 2 :
+                dateshow = "02";
+                break;
+
+                case 3 :
+                dateshow = "03";
+                break;
+
+                case 4 :
+                dateshow = "04";
+                break;
+
+                case 5 :
+                dateshow = "05";
+                break;
+
+                case 6 :
+                dateshow = "06";
+                break;
+
+                case 7 :
+                dateshow = "07";
+                break;
+
+                case 8 :
+                dateshow = "08";
+                break;
+
+                case 9 :
+                dateshow = "09";
+                break;
+
+                case 10 :
+                dateshow = "10";
+                break;
+                case 11 :
+                dateshow = "11";
+                break;
+                case 12 :
+                dateshow = "12";
+                break;
+                case 13 :
+                dateshow = "13";
+                break;
+                case 14 :
+                dateshow = "14";
+                break;
+                case 15 :
+                dateshow = "15";
+                break;
+                case 16 :
+                dateshow = "16";
+                break;
+                case 17 :
+                dateshow = "17";
+                break;
+                case 18 :
+                dateshow = "18";
+                break;
+                case 19 :
+                dateshow = "19";
+                break;
+                case 20 :
+                dateshow = "20";
+                break;
+                case 21 :
+                dateshow = "21";
+                break;
+                case 22 :
+                dateshow = "22";
+                break;
+                case 23 :
+                dateshow = "23";
+                break;
+                case 24 :
+                dateshow = "24";
+                break;
+                case 25 :
+                dateshow = "25";
+                break;
+                case 26 :
+                dateshow = "26";
+                break;
+                case 27 :
+                dateshow = "27";
+                break;
+                case 28 :
+                dateshow = "28";
+                break;
+                case 29 :
+                dateshow = "29";
+                break;
+                case 30 :
+                dateshow = "30";
+                break;
+                case 31 :
+                dateshow = "31";
+                break;
+            }
+
+
+            document.write(date4.getDate() + "<br>");
+            document.write(day  + " " + dateshow + " " + monthshow + "<br>");
+            document.write(date4.getMonth()  + "<br>");
+            document.write(date4.getYear()  + "<br>");
+            document.write(date4.getFullYear()  + "<br>");
+            document.write(date4.getHours()  + "<br>");
+            document.write(date4.getMinutes()  + "<br>");
+            document.write(date4.getSeconds()  + "<br>");
+            document.write(date4.getMilliseconds()  + "<br>");
+            document.write(date4.toDateString()  + "<br>");
+            document.write(date4.toString()  + "<br>");
+            document.write(date4.toTimeString()  + "<br>");
+
+
+            
+
+            
+        </script>
+    </body>
+</html>
